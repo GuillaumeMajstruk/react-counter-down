@@ -1,0 +1,42 @@
+@media screen and (min-width: 0px) {
+  .count-down--container {
+    display: inline-grid;
+    display: -ms-inline-grid;
+    display: -moz-inline-grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+
+  .count-down--value-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1rem;
+  }
+
+  .count-down--value {
+    font-size: 2rem;
+  }
+
+  .count-down--value-label {
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 300;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .count-down--container {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+
+  .count-down--value {
+    font-size: 4rem;
+  }
+
+  .count-down--value-label {
+    font-size: 1.4rem;
+  }
+}
