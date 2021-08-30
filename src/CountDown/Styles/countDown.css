@@ -4,7 +4,7 @@
     display: -ms-inline-grid;
     display: -moz-inline-grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    gap: 20px;
   }
 
   .count-down--value-container {
@@ -16,11 +16,11 @@
   }
 
   .count-down--value {
-    font-size: 2rem;
+    font-size: 20px;
   }
 
   .count-down--value-label {
-    font-size: 1rem;
+    font-size: 13px;
     text-transform: capitalize;
     font-weight: 300;
   }
@@ -29,14 +29,14 @@
 @media screen and (min-width: 768px) {
   .count-down--container {
     grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
+    gap: 35px;
   }
 
   .count-down--value {
-    font-size: 4rem;
+    font-size: 35px;
   }
 
   .count-down--value-label {
-    font-size: 1.4rem;
+    font-size: 16px;
   }
 }
